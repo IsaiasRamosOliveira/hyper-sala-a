@@ -5,8 +5,10 @@
 The application is a Website chat is a form of real-time communication between two or more people through typed text messages. These messages are sent and received instantly, allowing people to talk and interact with each other even if they are in different locations. Chats are common on the internet and are used for a wide variety of purposes.
 
 # Skills
-html 
-css
+ ### * Html 
+ ### * Css
+
+##
 
 # Login Screen
 <div align="center"> 
