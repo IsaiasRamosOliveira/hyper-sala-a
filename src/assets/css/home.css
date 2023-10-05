@@ -7,10 +7,8 @@
 
 #home {
   height: 100vh;
-  width: 100vw;
   display: grid;
-  grid-template-columns: 100px 1fr 3fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: 85px 240px 1fr 220px;
   grid-template-areas: "apps aside chat list";
 }
 
@@ -48,13 +46,13 @@
 
   #apps {
     order: 1;
-    height: 70px;
+    height: 80px;
   }  
   
   #chat {
     order: 2;
-    height: 100vh;
-    overflow-y: scroll;
+    height: 100%;
+    overflow-x: hidden;
   }
 
   #aside {
