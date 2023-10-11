@@ -1,14 +1,343 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/src/assets/css/home.css" />
+    <link rel="stylesheet" href="/src/assets/css/aside.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500&family=Lexend:wght@500&family=Outfit:wght@300&family=Poppins:ital,wght@0,300;0,400;0,600;1,400&family=Quicksand&family=Rubik:wght@300&family=Secular+One&display=swap");
+    </style>
     <title>Home</title>
   </head>
   <body id="home">
     <section id="apps">apps</section>
-    <aside id="aside">aside</aside>
+    <aside id="aside">
+      <section class="aside__chat">
+        <input
+          class="aside__search"
+          type="text"
+          name="nome"
+          placeholder="Search chat"
+        />
+        <button class="search__btn">
+          <picture>
+            <img
+              class="search__img"
+              src="/src/img/aside/procurar (1).png"
+              alt=""
+              width="15px"
+              height="15px"
+          /></picture>
+        </button>
+        <button class="aside__btn">Start newc chat</button>
+        <div class="conversation__list">
+          <div class="conversation__chat">
+            <div class="chat__img chat__group">
+              <div class="conversation__img img__member1">
+                <picture
+                  ><img
+                    src="/src/img/aside/pessoas2.jpg"
+                    alt="usuario"
+                    width="40px"
+                    height="40px"
+                /></picture>
+              </div>
+              <div class="conversation__img--purple">9</div>
+              <div class="conversation__img img__member2">
+                <picture
+                  ><img
+                    src="/src/img/aside/pessoas1.jpg"
+                    alt="usuario"
+                    width="40px"
+                    height="40px"
+                /></picture>
+              </div>
+            </div>
+            <div class="conversation__txt">
+              <div class="conversation__title">
+                <h4>Desing Team</h4>
+              </div>
+              <div class="conversation__message">
+                <p class="message__white">Kuy,Kapan mabar...</p>
+                <div class="conversation__time">
+                  <div class="message__notification--white"></div>
+                  <p class="message__white">10m</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="conversation__chat">
+            <div class="chat__img chat__pair">
+              <div class="pair__member1">
+                <picture
+                  ><img
+                    src="/src/img/aside/pessoas11.jpg"
+                    alt="usuario"
+                    width="40px"
+                    height="40px"
+                /></picture>
+              </div>
+              <div class="pair__member2">
+                <picture
+                  ><img
+                    src="/src/img/aside/pessoa13.jpg"
+                    alt="usuario"
+                    width="40px"
+                    height="40px"
+                /></picture>
+              </div>
+            </div>
+            <div class="conversation__txt">
+              <div class="conversation__title">
+                <h4>Project Review</h4>
+              </div>
+              <div class="conversation__message">
+                <p>Please add more note to...</p>
+                <div class="conversation__time">
+                  <div class="message__notification"></div>
+                  <p>2h</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="conversation__chat">
+            <div class="chat__img">
+              <picture
+                ><img
+                  class="notification__online"
+                  src="/src/img/aside/circulo-verde.png"
+                  alt="usuario"
+                  width="10px"
+                  height="10px"
+              /></picture>
+              <div class="conversation__img">
+                <picture>
+                  <img
+                    src="/src/img/aside/pessoas8.jpg"
+                    alt="usuario"
+                    width="40px"
+                    height="40px"
+                /></picture>
+              </div>
+            </div>
+            <div class="conversation__txt">
+              <div class="conversation__title">
+                <h4>Raaid El Syed</h4>
+              </div>
+              <div class="conversation__message">
+                <p>Hey man, have more time...</p>
+                <div class="conversation__time">
+                  <div class="message__notification"></div>
+                  <p>3d</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="conversation__chat">
+            <div class="chat__img">
+              <picture
+                ><img
+                  class="notification__online"
+                  src="/src/img/aside/circulo-verde.png"
+                  alt="online"
+                  width="10px"
+                  height="10px"
+              /></picture>
+              <div class="conversation__img">
+                <picture>
+                  <img
+                    src="/src/img/aside/pessoas10.jpg"
+                    alt="usuario"
+                    width="40px"
+                    height="40px"
+                /></picture>
+              </div>
+            </div>
+            <div class="conversation__txt">
+              <div class="conversation__title">
+                <h4>Alberto Raya</h4>
+              </div>
+              <div class="conversation__message">
+                <p>I've add some comments...</p>
+                <div class="conversation__time">
+                  <div class="message__notification"></div>
+                  <p>17h</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="conversation__chat">
+            <div class="chat__img chat__pair">
+              <div class="pair__member1">
+                <picture>
+                  <img
+                    src="/src/img/aside/pessoas12.jpg"
+                    alt="usuario"
+                    width="40px"
+                    height="40px"
+                /></picture>
+              </div>
+              <div class="pair__member2">
+                <picture
+                  ><img
+                    src="/src/img/aside/pessoas14.jpg"
+                    alt="usuario"
+                    width="40px"
+                    height="40px"
+                /></picture>
+              </div>
+            </div>
+            <div class="conversation__txt">
+              <div class="conversation__title">
+                <h4>Outing Company</h4>
+              </div>
+              <div class="conversation__message">
+                <p>Please add more note to...</p>
+                <div class="conversation__time">
+                  <div class="message__notification"></div>
+                  <p>8h</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="conversation__chat">
+            <div class="chat__img chat__group">
+              <div class="conversation__img img__member1">
+                <picture
+                  ><img
+                    src="/src/img/aside/pessoas7.jpg"
+                    alt="usuario"
+                    width="40px"
+                    height="40px"
+                /></picture>
+              </div>
+              <div class="conversation__img--red">5</div>
+              <div class="conversation__img img__member2">
+                <picture>
+                  <img
+                    src="/src/img/aside/pessoas9.jpg"
+                    alt="usuario"
+                    width="40px"
+                    height="40px"
+                /></picture>
+              </div>
+            </div>
+            <div class="conversation__txt">
+              <div class="conversation__title">
+                <h4>Desing Team</h4>
+              </div>
+              <div class="conversation__message">
+                <p>Kuy,Kapan mabar...</p>
+                <div class="conversation__time">
+                  <div class="message__notification"></div>
+                  <p>10m</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="conversation__chat">
+            <div class="chat__img">
+              <picture>
+                <img
+                  class="notification__online"
+                  src="/src/img/aside/circulo-verde.png"
+                  alt="online"
+                  width="10px"
+                  height="10px"
+              /></picture>
+              <div class="conversation__img">
+                <picture
+                  ><img
+                    src="/src/img/aside/pessoas14.jpg"
+                    alt="usuario"
+                    width="40px"
+                    height="40px"
+                /></picture>
+              </div>
+            </div>
+            <div class="conversation__txt">
+              <div class="conversation__title">
+                <h4>Winter Soldier</h4>
+              </div>
+              <div class="conversation__message">
+                <p>Just chillin out with Capt...</p>
+                <div class="conversation__time">
+                  <div class="message__notification"></div>
+                  <p>9h</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="conversation__chat">
+            <div class="chat__img">
+              <picture
+                ><img
+                  class="notification__online"
+                  src="/src/img/aside/circulo-branco.png"
+                  alt="offline"
+                  width="10px"
+                  height="10px"
+              /></picture>
+              <div class="conversation__img">
+                <picture
+                  ><img
+                    src="/src/img/aside/pessoas2.jpg"
+                    alt="usuario"
+                    width="40px"
+                    height="40px"
+                /></picture>
+              </div>
+            </div>
+            <div class="conversation__txt">
+              <div class="conversation__title">
+                <h4>Riley Cooper</h4>
+              </div>
+              <div class="conversation__message">
+                <p>Added more notes to the...</p>
+                <div class="conversation__time">
+                  <div class="message__notification"></div>
+                  <p>10m</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="conversation__chat">
+            <div class="chat__img">
+              <picture>
+                <img
+                  class="notification__online"
+                  src="/src/img/aside/circulo-branco.png"
+                  alt="offline"
+                  width="10px"
+                  height="10px"
+              /></picture>
+              <div class="conversation__img">
+                <picture>
+                  <img
+                    src="/src/img/aside/pessoas12.jpg"
+                    alt="usuario"
+                    width="40px"
+                    height="40px"
+                /></picture>
+              </div>
+            </div>
+            <div class="conversation__txt">
+              <div class="conversation__title">
+                <h4>Dick Morrison</h4>
+              </div>
+              <div class="conversation__message">
+                <p>Bro,I mean...Really...</p>
+                <div class="conversation__time">
+                  <div class="message__notification"></div>
+                  <p>32mim</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </aside>
     <section id="chat">chat</section>
     <section id="list">list</section>
   </body>
