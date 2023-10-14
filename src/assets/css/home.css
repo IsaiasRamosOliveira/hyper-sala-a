@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#home {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 85px 240px 1fr 220px;
+  grid-template-areas: "apps aside chat list";
+}
+
+#apps {
+  grid-area: apps;
+  background-color: gray;
+}
+
+#aside {
+  grid-area: aside;
+  background-color: cyan;
+}
+
+#chat {
+  grid-area: chat;
+  background-color: blueviolet;
+}
+
+#list {
+  grid-area: list;
+  background-color: palevioletred;
+}
+
+@media (max-width: 768px) {
+  #home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #list {
+    order: 0;
+    height: 80px;
+  }
+
+  #apps {
+    order: 1;
+    height: 80px;
+  }  
+  
+  #chat {
+    order: 2;
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+  #aside {
+    display: none;
+  }
+}
+
+@media (max-width: 415px) {
+  #list {
+    order: 1;
+  }
+
+  #apps {
+    order: 0;
+  }
+}
