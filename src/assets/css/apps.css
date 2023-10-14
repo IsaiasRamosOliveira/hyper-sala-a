@@ -1,0 +1,46 @@
+.apps__list {
+  background-color: #12171d;
+  height: 100%;
+}
+.icons__applications {
+  list-style: none;
+}
+.list__icons {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 50px 0px;
+  gap: 10px;
+}
+
+.icons__circle,
+.icons__semicircle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 50%;
+}
+
+.icons__semicircle {
+  width: 50px;
+  height: 50px;
+  background-color: #1c3287;
+}
+.icons__circle {
+  width: 65px;
+  height: 65px;
+  background-color: #1c31874c;
+}
+
+.icons__btns {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
