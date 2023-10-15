@@ -59,6 +59,10 @@
   cursor: pointer;
   width: 100%;
   display: flex;
+  border: none;
+  background-color: #1e2126;
+  color: white;
+  text-align: left;
 }
 
 .conversation__img {
@@ -70,7 +74,7 @@
   position: absolute;
 }
 
-.pair__member1 {
+.pair__member--one {
   border-radius: 50%;
   width: 35px;
   height: 35px;
@@ -79,7 +83,7 @@
   top: 10px;
   left: 10px;
 }
-.pair__member2 {
+.pair__member--two {
   border-radius: 50%;
   width: 35px;
   height: 35px;
@@ -114,7 +118,7 @@
 .chat__group {
   width: 151px;
 }
-.img__member1 {
+.img__member--one {
   position: absolute;
   top: -8px;
   left: 12px;
@@ -122,7 +126,7 @@
 .chat__pair {
   width: 120px;
 }
-.img__member2 {
+.img__member--two {
   position: absolute;
   top: 10px;
   left: -5px;
@@ -144,18 +148,16 @@
   font-size: small;
 }
 
-.conversation__title2, .conversation__txt {
+.conversation__txt {
   display: flex;
   flex-direction: column;
   width: 100%;
   margin: 10px;
   gap: 10px;
- 
 }
 
 .conversation__time {
   display: flex;
-
 }
 
 .message__notification {
