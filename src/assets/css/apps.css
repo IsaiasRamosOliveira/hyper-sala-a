@@ -1,6 +1,7 @@
 .apps__list {
   background-color: #12171d;
   height: 100%;
+  width: 100%;
 }
 .icons__applications {
   list-style: none;
@@ -12,12 +13,13 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  padding: 50px 0px;
+  height: 100%;
+  width: 100%;
   gap: 10px;
 }
 
-.icons__circle,
-.icons__semicircle {
+.icons__semicircle,
+span {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,7 +32,7 @@
   height: 50px;
   background-color: #1c3287;
 }
-.icons__circle {
+span {
   width: 65px;
   height: 65px;
   background-color: #1c31874c;
