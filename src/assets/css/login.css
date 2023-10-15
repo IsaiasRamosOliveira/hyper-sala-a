@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #262930;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#page-login {
+  width: 320px;
+  height: 370px;
+  background-color: #59b8d4;
+}
