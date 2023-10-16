@@ -4,6 +4,19 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+*::-webkit-scrollbar {
+  display: none;
+}
+body {
+  overflow: hidden;
+}
+#home,
+#apps,
+#aside,
+#chat,
+#list {
+  overflow-x: auto;
+}
 
 #home {
   height: 100vh;
@@ -15,11 +28,13 @@
 #apps {
   grid-area: apps;
   background-color: gray;
+  background-color: #12171d;
 }
 
 #aside {
   grid-area: aside;
   background-color: cyan;
+  background-color: #1e2126;
 }
 
 #chat {
@@ -47,8 +62,8 @@
   #apps {
     order: 1;
     height: 80px;
-  }  
-  
+  }
+
   #chat {
     order: 2;
     height: 100%;
