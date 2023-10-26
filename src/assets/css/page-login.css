@@ -1,0 +1,119 @@
+* {
+  font-family: "Gabarito", sans-serif;
+}
+
+p,
+placeholder,
+.link__register {
+  color: #6c7586;
+  font-size: 15px;
+}
+
+.link__register:hover {
+  color: white;
+}
+.box__input::placeholder {
+  color: #6c7586;
+}
+.checkbox__txt {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+input {
+  padding-left: 40px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background-color: #353944;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.login__card {
+  background-color: #262930;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card__logo {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card__title {
+  color: white;
+  font-weight: 500;
+}
+
+.card__box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 90%;
+  height: 40px;
+  position: relative;
+}
+.box__img {
+  position: absolute;
+  top: 6px;
+  left: 5px;
+}
+.box__input {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+}
+
+.card__checkbox {
+  display: flex;
+  gap: 5px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.card__casket {
+  width: 90%;
+  margin-bottom: 70px;
+}
+.card__separation {
+  background-color: #6c7586;
+  width: 90%;
+  height: 1px;
+  margin-bottom: 10px;
+}
+.card__link {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  padding: 6px;
+}
+.card__btn {
+  display: flex;
+  background-color: #58b7d3;
+  width: 100px;
+  height: 45px;
+  border-radius: 3px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn__link {
+  display: flex;
+  align-items: center;
+  outline: none;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: larger;
+}
+.card__session {
+  display: flex;
+}

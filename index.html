@@ -1,16 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-    <link rel="stylesheet" href="src/assets/css/login.css">
-</head>
-<body id="container">
+    <link rel="stylesheet" href="src/assets/css/login.css" />
+    <link rel="stylesheet" href="/src/assets/css/page-login.css" />
+    <link
+      rel="shortcut icon"
+      href="src/assets/img/login-img/icone-listra.ico"
+      type="image/x-icon"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500&family=Lexend:wght@500&family=Outfit:wght@300&family=Poppins:ital,wght@0,300;0,400;0,600;1,400&family=Quicksand&family=Rubik:wght@300&family=Secular+One&display=swap");
+    </style>
+  </head>
+  <body id="container">
     <section id="page-login">
-        <a href="src/page/home.html">
-            <button>alternar pagina</button>
-        </a>
+      <div class="login__card">
+        <div class="card__logo">
+          <picture
+            ><img
+              src="/src/assets/img/login-img/logoooo.png"
+              alt="logo do Allocate"
+              width="20px"
+              height="20px"
+          /></picture>
+          <h1 class="card__title">Allocate</h1>
+        </div>
+        <div class="card__box">
+          <div class="box__img">
+            <picture
+              ><img
+                class="box__img"
+                src="/src/assets/img/login-img/arroba-hyper.png"
+                alt="icone do arroba"
+                width="18px"
+                height="18px"
+            /></picture>
+          </div>
+          <input
+            class="box__input"
+            type="text"
+            name="nome"
+            placeholder="Email"
+          />
+        </div>
+        <div class="card__box">
+          <div class="box__img">
+            <picture
+              ><img
+                class="box__img"
+                src="/src/assets/img/login-img/3pontos-hyper.png"
+                alt="icone de reticencias"
+                width="18px"
+                height="18px"
+            /></picture>
+          </div>
+          <input
+            class="box__input"
+            type="password"
+            name="senha"
+            placeholder="Password"
+          />
+        </div>
+        <div class="card__casket">
+          <div class="card__checkbox">
+            <input type="checkbox" name="" id="" />
+            <p class="checkbox__txt">Remember me</p>
+          </div>
+        </div>
+        <div class="card__separation"></div>
+        <div class="card__session">
+          <div class="card__link">
+            <a class="link__register" href="#">lost you password?</a>
+            <a class="link__register" href="#">Sing up</a>
+          </div>
+          <button class="card__btn">
+            <a class="btn__link" href="src/page/home.html"> Login </a>
+          </button>
+        </div>
+      </div>
     </section>
-</body>
+  </body>
 </html>
