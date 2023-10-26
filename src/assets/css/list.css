@@ -1,0 +1,137 @@
+.container__lists {
+  background-color: #1e2126;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Gabarito", sans-serif;
+}
+p,
+h5 {
+  color: #909194;
+}
+p {
+  font-weight: 100;
+}
+.profile__subtitle {
+  font-size: 12px;
+}
+
+.profile__title--white {
+  color: white;
+  font-weight: 400;
+}
+.container__user {
+  margin-top: 5px;
+  background-color: #15181c;
+  display: flex;
+  height: 60px;
+  width: 90%;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: center;
+  position: relative;
+  cursor: pointer;
+}
+.user__profile {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+.profile__online {
+  background-color: white;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 35px;
+  left: 38px;
+}
+.profile__txts {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.profile__theme {
+  background-color: #2a2a2a;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.theme__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile__title {
+  width: 90%;
+  height: 60px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+}
+.profile__List {
+  height: 300px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  border-radius: 8px;
+  gap: 10px;
+}
+
+.profile__notes {
+  background-color: #16191c;
+  border-radius: 8px;
+  display: flex;
+  height: 60px;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+}
+
+.englobar {
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile__txt {
+  display: flex;
+}
+.profile__gallery {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.gallery__imgs {
+  width: 93px;
+  height: 93px;
+  overflow: hidden;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.img__opacity {
+  opacity: 0.5;
+}
